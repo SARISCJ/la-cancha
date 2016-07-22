@@ -1,0 +1,56 @@
+.padre {
+	background-color: #8CB27C;
+	width: 800px;
+	height: 500px;
+	position: relative;
+}
+.hijo{
+	width: 780px;
+	height: 480px;
+	border: 1px solid white;
+	position: absolute;
+	left: 7px;
+	top: 7px;
+}
+.arco1, .arco2{
+	width: 80px;
+	height:150px;
+	border: 1px solid white;
+	top: 150px;
+	position: absolute;
+}
+.arco1{
+	border-left: 0;
+}
+.arco2{
+	right: 0;
+	border-right: 0;
+}
+.circulo1 {
+	border-radius: 50%;
+	border:1px solid white;
+	width: 150px;
+	height:150px;
+	float: left;
+	left: 320px;
+	top: 150px;
+	position: relative;
+}
+.bola1 {
+	float: left;
+	left: 70px;
+	top: 152px;
+	position: absolute;
+}
+.bola2 {
+	float: right;
+	right: 85px;
+	bottom: 180px;
+	position: absolute;
+}
+.bola3 {
+	float: left;
+	left: 400px;
+	top: 50px;
+	position: absolute;
+}
